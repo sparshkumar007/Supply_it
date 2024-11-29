@@ -1,0 +1,120 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Auth Container Styling */
+  .auth-container {
+    width: 100%;
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .auth-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  /* Form Styling */
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="password"] {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  input:focus,
+  select:focus {
+    border-color: #ff6f61;
+    outline: none;
+  }
+  
+  /* Submit Button */
+  .auth-btn {
+    padding: 12px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-btn:hover {
+    background-color: #e15a49;
+  }
+  
+  /* Switch between Login/Signup */
+  .auth-switch {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .auth-switch p {
+    font-size: 16px;
+  }
+  
+  .auth-switch a {
+    color: #ff6f61;
+    font-weight: bold;
+  }
+  
+  .auth-switch a:hover {
+    text-decoration: underline;
+  }
+  /* Common styling for Back to Home Button */
+.back-home-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.back-home-btn:hover {
+  background-color: #0056b3;
+}

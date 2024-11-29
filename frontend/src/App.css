@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #0077b6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #005f73;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a,
+nav ul li button {
+  text-decoration: none;
+  color: white;
+  background-color: #0077b6;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+nav ul li a:hover,
+nav ul li button:hover {
+  background-color: #023e8a;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input,
+form select,
+form button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+form button {
+  background-color: #0077b6;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #005f73;
+}
+
+/* Profile Page */
+.profile-container {
+  text-align: center;
+}
+
+.profile-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 3px solid #023e8a;
+}
+
+.profile-container p {
+  margin: 10px 0;
+}
+
+.category-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.category-buyer {
+  background-color: blue;
+}
+
+.category-seller {
+  background-color: yellow;
+  color: black;
+}
+
+.category-middleman {
+  background-color: green;
+}
+
+.category-deliveryadmin {
+  background-color: orange;
+}

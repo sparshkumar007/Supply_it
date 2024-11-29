@@ -1,0 +1,87 @@
+2024-11-13 16:58:04 error: SequelizeConnectionError: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+    at Client._connectionCallback (/app/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:149:20)
+    at Client._handleErrorWhileConnecting (/app/node_modules/pg/lib/client.js:326:19)
+    at Client._handleErrorEvent (/app/node_modules/pg/lib/client.js:336:19)
+    at Connection.emit (node:events:507:28)
+    at Client._handleAuthSASLContinue (/app/node_modules/pg/lib/client.js:274:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2024-11-13 16:59:19 error: SequelizeConnectionError: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+    at Client._connectionCallback (/app/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:149:20)
+    at Client._handleErrorWhileConnecting (/app/node_modules/pg/lib/client.js:326:19)
+    at Client._handleErrorEvent (/app/node_modules/pg/lib/client.js:336:19)
+    at Connection.emit (node:events:507:28)
+    at Client._handleAuthSASLContinue (/app/node_modules/pg/lib/client.js:274:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2024-11-13 17:00:35 error: SequelizeConnectionError: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+    at Client._connectionCallback (/app/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:149:20)
+    at Client._handleErrorWhileConnecting (/app/node_modules/pg/lib/client.js:326:19)
+    at Client._handleErrorEvent (/app/node_modules/pg/lib/client.js:336:19)
+    at Connection.emit (node:events:507:28)
+    at Client._handleAuthSASLContinue (/app/node_modules/pg/lib/client.js:274:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2024-11-13 17:11:37 error: SequelizeConnectionError: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+    at Client._connectionCallback (/app/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:149:20)
+    at Client._handleErrorWhileConnecting (/app/node_modules/pg/lib/client.js:326:19)
+    at Client._handleErrorEvent (/app/node_modules/pg/lib/client.js:336:19)
+    at Connection.emit (node:events:507:28)
+    at Client._handleAuthSASLContinue (/app/node_modules/pg/lib/client.js:274:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2024-11-13 17:14:15 error: SequelizeConnectionError: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+    at Client._connectionCallback (/app/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:149:20)
+    at Client._handleErrorWhileConnecting (/app/node_modules/pg/lib/client.js:326:19)
+    at Client._handleErrorEvent (/app/node_modules/pg/lib/client.js:336:19)
+    at Connection.emit (node:events:507:28)
+    at Client._handleAuthSASLContinue (/app/node_modules/pg/lib/client.js:274:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2024-11-19 05:15:03 error: Email already exists
+2024-11-19 05:16:10 error: Email already exists
+2024-11-19 05:16:50 error: Email already exists
+2024-11-19 05:18:33 error: Email already exists
+2024-11-19 05:22:55 error: Email already exists
+2024-11-19 05:25:55 error: Email already exists
+2024-11-19 05:26:35 error: Email already exists
+2024-11-19 05:26:41 error: Email already exists
+2024-11-19 05:34:23 error: Email already exists
+2024-11-19 05:34:25 error: Email already exists
+2024-11-19 05:38:31 error: Email already exists
+2024-11-19 05:42:32 error: Email already exists
+2024-11-19 05:49:23 error: Email already exists
+2024-11-19 05:52:24 error: Email already exists
+2024-11-19 06:10:07 error: Email already exists
+2024-11-19 18:57:53 error: Email already exists
+2024-11-19 10:59:48 error: Only buyers can add orders
+2024-11-19 11:00:10 error: Only buyers can add orders
+2024-11-19 11:08:34 error: Product does not exist
+2024-11-19 11:08:52 error: Only buyers can add orders
+2024-11-19 11:14:12 error: User not found
+2024-11-19 11:14:30 error: Only delivery Admin can add track
+2024-11-19 11:24:19 error: Only buyers can add orders
+2024-11-19 11:35:04 error: Only delivery Admin can get orders in queue
+2024-11-19 11:47:58 error: Order ID is required
+2024-11-19 11:48:29 error: Order ID is required
+2024-11-22 06:19:57 error: Error in downloading file from IPFS
+2024-11-22 06:19:57 error: error TypeError: file.data.JSON is not a function
+2024-11-22 06:21:08 error: Error in downloading file from IPFS
+2024-11-22 06:21:08 error: error SyntaxError: "[object Object]" is not valid JSON
+2024-11-22 21:03:23 error: Only delivery Admin can add track
+2024-11-22 21:51:42 error: Email already exists
+2024-11-22 21:51:52 error: User not found
+2024-11-22 21:52:00 error: User not found
+2024-11-22 12:33:51 error: Error: Must supply api_key
+    at ensureOption (/app/node_modules/cloudinary/lib/utils/ensureOption.js:19:13)
+    at Object.sign_request (/app/node_modules/cloudinary/lib/utils/index.js:1164:16)
+    at Object.process_request_params (/app/node_modules/cloudinary/lib/utils/index.js:1214:22)
+    at call_api (/app/node_modules/cloudinary/lib/uploader.js:474:18)
+    at Object.upload (/app/node_modules/cloudinary/lib/uploader.js:53:10)
+    at Object.upload_stream (/app/node_modules/cloudinary/lib/uploader.js:40:18)
+    at Object.upload_stream (/app/node_modules/cloudinary/lib/utils/index.js:1411:21)
+    at uploadResponse (/app/controllers/productController.js:22:50)
+    at new Promise (<anonymous>)
+    at /app/controllers/productController.js:21:36
+2024-11-22 12:49:21 error: Error uploading image: Request Timeout
+2024-11-22 12:50:17 error: Error uploading image: Request Timeout
+2024-11-22 12:51:04 error: Error uploading image: Request Timeout
+2024-11-22 13:12:11 error: Error uploading image: Request Timeout
+2024-11-22 13:12:21 error: Error uploading image: Request Timeout
+2024-11-23 18:32:23 error: Error in uploading track on web3
+2024-11-29 14:08:19 error: User not found
